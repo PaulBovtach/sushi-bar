@@ -1,0 +1,1607 @@
+/*ROLLS*/
+.rolls_wrapper{
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.rolls_wrap1{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.rolls_wrap2{
+    margin-top: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.rolls_wrap3{
+    margin-top: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.rolls_wrap4{
+    margin-top: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.rolls_wrap5{
+    margin-top: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.rolls_wrap6{
+    margin-top: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.rolls_wrap7{
+    margin-top: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.rolls_wrap8{
+    margin-top: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.rolls_wrap9{
+    margin-top: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/*ROLL1*/
+.roll1_wrapper{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    box-shadow: 2px 4px 20px #1d1d1d;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    align-items: center;
+    width: 15%;
+    height: 340px;
+}
+.roll1_img{
+    width: 70%;
+    height: 100%;
+}
+.roll1_h3{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 14px;
+    color: #ff0000;
+    font-family: Japanease;
+}
+.roll1_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.roll1_p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.roll1_price{
+    white-space: pre;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    background-color: #ff0000;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.roll1_price span{
+    font-family: Japanease;
+}
+
+
+
+/*ROLL2*/
+.roll2_wrapper{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    box-shadow: 2px 4px 20px #1d1d1d;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    align-items: center;
+    width: 15%;
+    height: 340px;
+}
+.roll2_img{
+    width: 70%;
+    height: 100%;
+}
+.roll2_h3{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 14px;
+    color: #ff0000;
+    font-family: Japanease;
+}
+.roll2_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.roll2_p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.roll2_price{
+    white-space: pre;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    background-color: #ff0000;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.roll2_price span{
+    font-family: Japanease;
+}
+
+
+
+
+/*ROLL3*/
+.roll3_wrapper{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    box-shadow: 2px 4px 20px #1d1d1d;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    align-items: center;
+    width: 15%;
+    height: 340px;
+}
+.roll3_img{
+    width: 70%;
+    height: 100%;
+}
+.roll3_h3{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 14px;
+    color: #ff0000;
+    font-family: Japanease;
+}
+.roll3_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.roll3_p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.roll3_price{
+    white-space: pre;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    background-color: #ff0000;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.roll3_price span{
+    font-family: Japanease;
+}
+
+
+
+
+/*ROLL4*/
+.roll4_wrapper{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    box-shadow: 2px 4px 20px #1d1d1d;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    align-items: center;
+    width: 15%;
+    height: 340px;
+}
+.roll4_img{
+    width: 70%;
+    height: 100%;
+}
+.roll4_h3{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 14px;
+    color: #ff0000;
+    font-family: Japanease;
+}
+.roll4_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.roll4_p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.roll4_price{
+    white-space: pre;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    background-color: #ff0000;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.roll4_price span{
+    font-family: Japanease;
+}
+
+
+
+
+/*ROLL5*/
+.roll5_wrapper{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    box-shadow: 2px 4px 20px #1d1d1d;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    align-items: center;
+    width: 15%;
+    height: 340px;
+}
+.roll5_img{
+    width: 70%;
+    height: 100%;
+}
+.roll5_h3{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 14px;
+    color: #ff0000;
+    font-family: Japanease;
+}
+.roll5_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.roll5_p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.roll5_price{
+    white-space: pre;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    background-color: #ff0000;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.roll5_price span{
+    font-family: Japanease;
+}
+
+
+
+
+
+/*ROLL6*/
+.roll6_wrapper{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    box-shadow: 2px 4px 20px #1d1d1d;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    align-items: center;
+    width: 15%;
+    height: 340px;
+}
+.roll6_img{
+    width: 70%;
+    height: 100%;
+}
+.roll6_h3{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 14px;
+    color: #ff0000;
+    font-family: Japanease;
+}
+.roll6_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.roll6_p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.roll6_price{
+    white-space: pre;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    background-color: #ff0000;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.roll6_price span{
+    font-family: Japanease;
+}
+
+
+
+
+/*ROLL7*/
+.roll7_wrapper{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    box-shadow: 2px 4px 20px #1d1d1d;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    align-items: center;
+    width: 15%;
+    height: 340px;
+}
+.roll7_img{
+    width: 70%;
+    height: 100%;
+}
+.roll7_h3{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 14px;
+    color: #ff0000;
+    font-family: Japanease;
+}
+.roll7_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.roll7_p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.roll7_price{
+    white-space: pre;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    background-color: #ff0000;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.roll7_price span{
+    font-family: Japanease;
+}
+
+
+
+/*ROLL8*/
+.roll8_wrapper{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    box-shadow: 2px 4px 20px #1d1d1d;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    align-items: center;
+    width: 15%;
+    height: 340px;
+}
+.roll8_img{
+    width: 70%;
+    height: 100%;
+}
+.roll8_h3{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 14px;
+    color: #ff0000;
+    font-family: Japanease;
+}
+.roll8_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.roll8_p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.roll8_price{
+    white-space: pre;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    background-color: #ff0000;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.roll8_price span{
+    font-family: Japanease;
+}
+
+
+
+
+/*ROLL9*/
+.roll9_wrapper{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    box-shadow: 2px 4px 20px #1d1d1d;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    align-items: center;
+    width: 15%;
+    height: 340px;
+}
+.roll9_img{
+    width: 70%;
+    height: 100%;
+}
+.roll9_h3{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 14px;
+    color: #ff0000;
+    font-family: Japanease;
+}
+.roll9_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.roll9_p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.roll9_price{
+    white-space: pre;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    background-color: #ff0000;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.roll9_price span{
+    font-family: Japanease;
+}
+
+
+
+/*ROLL10*/
+.roll10_wrapper{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    box-shadow: 2px 4px 20px #1d1d1d;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    align-items: center;
+    width: 15%;
+    height: 340px;
+}
+.roll10_img{
+    width: 70%;
+    height: 100%;
+}
+.roll10_h3{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 14px;
+    color: #ff0000;
+    font-family: Japanease;
+}
+.roll10_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.roll10_p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.roll10_price{
+    white-space: pre;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    background-color: #ff0000;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.roll10_price span{
+    font-family: Japanease;
+}
+
+
+
+
+
+
+
+/*ROLL11*/
+.roll11_wrapper{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    box-shadow: 2px 4px 20px #1d1d1d;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    align-items: center;
+    width: 15%;
+    height: 340px;
+}
+.roll11_img{
+    width: 70%;
+    height: 100%;
+}
+.roll11_h3{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 14px;
+    color: #ff0000;
+    font-family: Japanease;
+}
+.roll11_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.roll11_p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.roll11_price{
+    white-space: pre;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    background-color: #ff0000;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.roll11_price span{
+    font-family: Japanease;
+}
+
+
+
+
+/*ROLL12*/
+.roll12_wrapper{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    box-shadow: 2px 4px 20px #1d1d1d;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    align-items: center;
+    width: 15%;
+    height: 340px;
+}
+.roll12_img{
+    width: 70%;
+    height: 100%;
+}
+.roll12_h3{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 14px;
+    color: #ff0000;
+    font-family: Japanease;
+}
+.roll12_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.roll12_p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.roll12_price{
+    white-space: pre;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    background-color: #ff0000;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.roll12_price span{
+    font-family: Japanease;
+}
+
+
+
+
+
+/*ROLL13*/
+.roll13_wrapper{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    box-shadow: 2px 4px 20px #1d1d1d;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    align-items: center;
+    width: 15%;
+    height: 340px;
+}
+.roll13_img{
+    width: 70%;
+    height: 100%;
+}
+.roll13_h3{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 14px;
+    color: #ff0000;
+    font-family: Japanease;
+}
+.roll13_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.roll13_p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.roll13_price{
+    white-space: pre;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    background-color: #ff0000;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.roll13_price span{
+    font-family: Japanease;
+}
+
+
+
+
+/*ROLL14*/
+.roll14_wrapper{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    box-shadow: 2px 4px 20px #1d1d1d;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    align-items: center;
+    width: 15%;
+    height: 340px;
+}
+.roll14_img{
+    width: 70%;
+    height: 100%;
+}
+.roll14_h3{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 14px;
+    color: #ff0000;
+    font-family: Japanease;
+}
+.roll14_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.roll14_p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.roll14_price{
+    white-space: pre;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    background-color: #ff0000;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.roll14_price span{
+    font-family: Japanease;
+}
+
+
+
+
+
+/*ROLL15*/
+.roll15_wrapper{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    box-shadow: 2px 4px 20px #1d1d1d;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    align-items: center;
+    width: 15%;
+    height: 340px;
+}
+.roll15_img{
+    width: 70%;
+    height: 100%;
+}
+.roll15_h3{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 14px;
+    color: #ff0000;
+    font-family: Japanease;
+}
+.roll15_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.roll15_p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.roll15_price{
+    white-space: pre;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    background-color: #ff0000;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.roll15_price span{
+    font-family: Japanease;
+}
+
+
+
+/*ROLL16*/
+.roll16_wrapper{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    box-shadow: 2px 4px 20px #1d1d1d;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    align-items: center;
+    width: 15%;
+    height: 340px;
+}
+.roll16_img{
+    width: 70%;
+    height: 100%;
+}
+.roll16_h3{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 14px;
+    color: #ff0000;
+    font-family: Japanease;
+}
+.roll16_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.roll16_p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.roll16_price{
+    white-space: pre;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    background-color: #ff0000;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.roll16_price span{
+    font-family: Japanease;
+}
+
+
+
+
+
+/*ROLL17*/
+.roll17_wrapper{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    box-shadow: 2px 4px 20px #1d1d1d;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    align-items: center;
+    width: 15%;
+    height: 340px;
+}
+.roll17_img{
+    width: 70%;
+    height: 100%;
+}
+.roll17_h3{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 14px;
+    color: #ff0000;
+    font-family: Japanease;
+}
+.roll17_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.roll17_p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.roll17_price{
+    white-space: pre;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    background-color: #ff0000;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.roll17_price span{
+    font-family: Japanease;
+}
+
+
+
+
+
+/*ROLL18*/
+.roll18_wrapper{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    box-shadow: 2px 4px 20px #1d1d1d;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    align-items: center;
+    width: 15%;
+    height: 340px;
+}
+.roll18_img{
+    width: 70%;
+    height: 100%;
+}
+.roll18_h3{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 14px;
+    color: #ff0000;
+    font-family: Japanease;
+}
+.roll18_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.roll18_p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.roll18_price{
+    white-space: pre;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    background-color: #ff0000;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.roll18_price span{
+    font-family: Japanease;
+}
+
+
+
+
+
+
+/*ROLL18*/
+.roll18_wrapper{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    box-shadow: 2px 4px 20px #1d1d1d;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    align-items: center;
+    width: 15%;
+    height: 340px;
+}
+.roll18_img{
+    width: 70%;
+    height: 100%;
+}
+.roll18_h3{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 14px;
+    color: #ff0000;
+    font-family: Japanease;
+}
+.roll18_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.roll18_p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.roll18_price{
+    white-space: pre;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    background-color: #ff0000;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.roll18_price span{
+    font-family: Japanease;
+}
+
+
+
+
+/*ROLL19*/
+.roll19_wrapper{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    box-shadow: 2px 4px 20px #1d1d1d;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    align-items: center;
+    width: 15%;
+    height: 340px;
+}
+.roll19_img{
+    width: 70%;
+    height: 100%;
+}
+.roll19_h3{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 14px;
+    color: #ff0000;
+    font-family: Japanease;
+}
+.roll19_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.roll19_p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.roll19_price{
+    white-space: pre;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    background-color: #ff0000;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.roll19_price span{
+    font-family: Japanease;
+}
+
+
+
+
+/*ROLL20*/
+.roll20_wrapper{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    box-shadow: 2px 4px 20px #1d1d1d;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    align-items: center;
+    width: 15%;
+    height: 340px;
+}
+.roll20_img{
+    width: 70%;
+    height: 100%;
+}
+.roll20_h3{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 14px;
+    color: #ff0000;
+    font-family: Japanease;
+}
+.roll20_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.roll20_p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.roll20_price{
+    white-space: pre;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    background-color: #ff0000;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.roll20_price span{
+    font-family: Japanease;
+}
+
+
+
+
+/*ROLL21*/
+.roll21_wrapper{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    box-shadow: 2px 4px 20px #1d1d1d;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    align-items: center;
+    width: 15%;
+    height: 340px;
+}
+.roll21_img{
+    width: 70%;
+    height: 100%;
+}
+.roll21_h3{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 14px;
+    color: #ff0000;
+    font-family: Japanease;
+}
+.roll21_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.roll21_p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.roll21_price{
+    white-space: pre;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    background-color: #ff0000;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.roll21_price span{
+    font-family: Japanease;
+}
+
+
+
+
+
+/*ROLL22*/
+.roll22_wrapper{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    box-shadow: 2px 4px 20px #1d1d1d;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    align-items: center;
+    width: 15%;
+    height: 340px;
+}
+.roll22_img{
+    width: 70%;
+    height: 100%;
+}
+.roll22_h3{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 14px;
+    color: #ff0000;
+    font-family: Japanease;
+}
+.roll22_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.roll22_p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.roll22_price{
+    white-space: pre;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    background-color: #ff0000;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.roll22_price span{
+    font-family: Japanease;
+}
+
+
+
+
+/*ROLL23*/
+.roll23_wrapper{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    box-shadow: 2px 4px 20px #1d1d1d;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    align-items: center;
+    width: 15%;
+    height: 340px;
+}
+.roll23_img{
+    width: 70%;
+    height: 100%;
+}
+.roll23_h3{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 14px;
+    color: #ff0000;
+    font-family: Japanease;
+}
+.roll23_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.roll23_p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.roll23_price{
+    white-space: pre;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    background-color: #ff0000;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.roll23_price span{
+    font-family: Japanease;
+}
+
+
+
+
+
+
+/*ROLL24*/
+.roll24_wrapper{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    box-shadow: 2px 4px 20px #1d1d1d;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    align-items: center;
+    width: 15%;
+    height: 340px;
+}
+.roll24_img{
+    width: 70%;
+    height: 100%;
+}
+.roll24_h3{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 14px;
+    color: #ff0000;
+    font-family: Japanease;
+}
+.roll24_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.roll24_p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.roll24_price{
+    white-space: pre;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    background-color: #ff0000;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.roll24_price span{
+    font-family: Japanease;
+}
+
+
+
+
+/*ROLL25*/
+.roll25_wrapper{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    box-shadow: 2px 4px 20px #1d1d1d;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    align-items: center;
+    width: 15%;
+    height: 340px;
+}
+.roll25_img{
+    width: 70%;
+    height: 100%;
+}
+.roll25_h3{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 14px;
+    color: #ff0000;
+    font-family: Japanease;
+}
+.roll25_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.roll25_p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.roll25_price{
+    white-space: pre;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    background-color: #ff0000;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.roll25_price span{
+    font-family: Japanease;
+}
+
+
+
+
+/*ROLL26*/
+.roll26_wrapper{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    box-shadow: 2px 4px 20px #1d1d1d;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    align-items: center;
+    width: 15%;
+    height: 340px;
+}
+.roll26_img{
+    width: 70%;
+    height: 100%;
+}
+.roll26_h3{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 14px;
+    color: #ff0000;
+    font-family: Japanease;
+}
+.roll26_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.roll26_p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.roll26_price{
+    white-space: pre;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    background-color: #ff0000;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.roll26_price span{
+    font-family: Japanease;
+}
+
+
+
+
+/*ROLL27*/
+.roll27_wrapper{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    box-shadow: 2px 4px 20px #1d1d1d;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    align-items: center;
+    width: 15%;
+    height: 340px;
+}
+.roll27_img{
+    width: 70%;
+    height: 100%;
+}
+.roll27_h3{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 14px;
+    color: #ff0000;
+    font-family: Japanease;
+}
+.roll27_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.roll27_p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.roll27_price{
+    white-space: pre;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    background-color: #ff0000;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.roll27_price span{
+    font-family: Japanease;
+}

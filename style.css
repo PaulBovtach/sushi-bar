@@ -1,0 +1,338 @@
+@font-face {
+    font-family: Japanease; /* Гарнитура шрифта */
+    src: url(HanZi.ttf); /* Путь к файлу со шрифтом */
+   }
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ff0000;
+}
+
+h1, h2, h3, h4, h5, h5, h6{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+
+
+/*HEADER---*/
+
+.container{
+    background-color: white;
+    width: 90%;
+    height: 6000px;
+    margin-left: auto;
+    padding-top: 9%;
+    padding-left: 1%;
+    box-sizing: border-box;
+}
+.header{
+    z-index: 2;
+    align-items: center;
+    display: flex;
+    padding-left: 1.65%;
+    padding-right: 20%;
+    position: fixed;
+    border-bottom: 2px solid #ff0000;
+    width: 100%;
+    height: 13%;
+    background: #1d1d1d;
+
+}
+.logo_header{
+    user-select: none;
+    width: 6.7%;
+    height: 100%;
+}
+.header_h1{
+    font-family: Japanease;
+    color: #ff0000;
+    margin-left: 6%;
+    width: 40%;
+    text-align: center;
+    font-size: 18px;
+    user-select: none;
+}
+
+.phones_header{
+    margin-left: 6%;
+    align-items: center;
+    display: flex;
+}
+.phone_logo{
+    width: 10%;
+    height: 12%;
+}
+.phones_numbers_header{
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.tel_header1{
+    font-family: Japanease;
+    transition: 0.4s;
+    text-decoration: none;
+    font-weight: 600;
+    color: #ff0000;
+}
+.tel_header2{
+    margin-top: 5%;
+    font-family: Japanease;
+    transition: 0.4s;
+    text-decoration: none;
+    font-weight: 600;
+    color: #ff0000;
+}
+.tel_header1:hover{
+    color: white;
+    transition: 0.4s;
+}
+.tel_header2:hover{
+    color: white;
+    transition: 0.4s;
+}
+
+
+.location_wrapper{
+    margin-left: 6%;
+    align-items: center;
+    display: flex;
+}
+.location_logo{
+    width: 10%;
+    height: 12%;
+}
+.loaction_p{
+    margin-left: 2%;
+    font-size: 18px;
+    color: #ff0000;
+    font-weight: 600;
+    font-family: Japanease;
+}
+
+
+
+
+
+
+.action_wrapper.active{
+    transition: 0.4s;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    height: 620%;
+    margin-right: 10%;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    width: 45%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.action_wrapper{
+    transition: 0.4s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    margin-right: 10%;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    width: 45%;
+
+}
+.visible_part{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.action_h1{
+    position: absolute;
+    font-family: Japanease;
+    color: #ff0000;
+    font-size: 22px;
+    top: 35%;
+}
+.arrow_down_img{
+    cursor: pointer;
+    transition: 0.4s;
+    position: absolute;
+    margin-top: 5%;
+    width: 1.5%;
+    bottom: 10%;
+}
+
+.arrow_down_img.active{
+    transition: 0.4s;
+    transform: rotate(180deg);
+}
+
+
+.action_p1.active{
+    transition: 0.8s;
+    opacity: 1;
+    font-size: 16px;
+    font-weight: 600;
+    top: 125%;
+    width: 10%;
+    color: #ff0000;
+    position: absolute;
+}
+.action_p1 span{
+    font-family: Japanease;
+}
+.action_p1{
+    transition: 0.2s;
+    opacity: 0;
+    font-size: 0;
+    font-weight: 600;
+    top: 125%;
+    width: 10%;
+    color: #ff0000;
+    position: absolute;
+}
+.action_p2.active{
+    transition: 0.8s;
+    opacity: 1;
+    font-size: 16px;
+    font-weight: 600;
+    top: 250%;
+    width: 6%;
+    color: #ff0000;
+    position: absolute;
+}
+
+.action_p2{
+    transition: 0.2s;
+    opacity: 0;
+    font-size: 0;
+    font-weight: 600;
+    top: 250%;
+    width: 6%;
+    color: #ff0000;
+    position: absolute;
+}
+
+.action_p2 span{
+    font-family: Japanease;
+}
+
+
+
+
+/*LEFTSIDE_HEADER---*/
+
+.leftside_header{
+    z-index: 3;
+    border-right: 2px solid #ff0000;
+    justify-content: space-evenly;
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 1.7%;
+    box-sizing: border-box;
+    margin-top: 6.5%;
+    background-color: #1d1d1d;
+    width: 10%;
+    height: 100%;
+    position: fixed;
+}
+.leftside_header_h1{
+    font-family: Japanease;
+    color: #ff0000;
+
+}
+
+
+.maki_wrapper{
+    width: 100%;
+}
+.maki_img{
+    width: 55%;
+}
+.maki_h3{
+    font-family: Japanease;
+    color: white;
+}
+
+
+
+.sushi_wrapper{
+    width: 100%;
+}
+.sushi_img{
+    width: 55%;
+}
+.sushi_h3{
+    font-family: Japanease;
+    color: white;
+}
+
+
+
+.gunkans_wrapper{
+    width: 100%;
+}
+.gunkans_img{
+    width: 55%;
+}
+.gunkans_h3{
+    font-family: Japanease;
+    color: white;
+}
+
+
+
+
+.krevetki_wrapper{
+    width: 100%;
+}
+.krevetki_img{
+    width: 55%;
+}
+.krevetki_h3{
+    font-family: Japanease;
+    color: white;
+}
+
+
+
+
+
+
+
+/*CONTAINER*/
+.rolls_banner{
+    position: absolute;
+    width: 35%;
+    height: 10%;
+}
+.banner_img{
+    width: 100%;
+    height: 100%;
+}
+.rolls_banner_h1{
+    font-family: Japanease;
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 70%;
+}
+
+
+
