@@ -10,7 +10,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ff0000;
+    background-color: #1d1d1d;
 }
 
 h1, h2, h3, h4, h5, h5, h6{
@@ -26,31 +26,47 @@ p{
 .container{
     background-color: white;
     width: 90%;
-    height: 6000px;
+    height: 5800px;
     margin-left: auto;
     padding-top: 9%;
     padding-left: 1%;
     box-sizing: border-box;
 }
 .header{
+    box-shadow: 3px 3px 30px #1d1d1d;
     z-index: 2;
     align-items: center;
     display: flex;
     padding-left: 1.65%;
     padding-right: 20%;
     position: fixed;
-    border-bottom: 2px solid #ff0000;
     width: 100%;
-    height: 13%;
+    height: 16%;
     background: #1d1d1d;
 
 }
+.logo_header.animated{
+    opacity: 1;
+    transform: translate(0px, 0%);
+    transition: 0.4s;
+}
 .logo_header{
+    opacity: 0;
+    transform: translate(0px, 120%);
+    transition: 0.4s;
     user-select: none;
-    width: 6.7%;
+    width: 10%;
     height: 100%;
 }
+.header_h1.animated{
+    opacity: 1;
+    transform: translate(0px, 0%);
+    transition: 0.4s;
+}
 .header_h1{
+    transition: 0.4s;
+    transform: translate(0px, 120%);
+    opacity: 0;
     font-family: Japanease;
     color: #ff0000;
     margin-left: 6%;
@@ -59,8 +75,15 @@ p{
     font-size: 18px;
     user-select: none;
 }
-
+.phones_header.animated{
+    opacity: 1;
+    transform: translate(0px, 0%);
+    transition: 0.4s;
+}
 .phones_header{
+    opacity: 0;
+    transform: translate(0px, 120%);
+    transition: 0.4s;
     margin-left: 6%;
     align-items: center;
     display: flex;
@@ -99,8 +122,15 @@ p{
     transition: 0.4s;
 }
 
-
+.location_wrapper.animated{
+    opacity: 1;
+    transform: translate(0px, 0%);
+    transition: 0.4s;
+}
 .location_wrapper{
+    opacity: 0;
+    transform: translate(0px, 120%);
+    transition: 0.4s;
     margin-left: 6%;
     align-items: center;
     display: flex;
@@ -120,7 +150,10 @@ p{
 
 
 
-
+.action_wrapper.animated{
+    opacity: 1;
+    transition: 0.4s;
+}
 
 .action_wrapper.active{
     transition: 0.4s;
@@ -137,6 +170,7 @@ p{
     border-bottom-right-radius: 10px;
 }
 .action_wrapper{
+    opacity: 0;
     transition: 0.4s;
     display: flex;
     flex-direction: column;
@@ -236,8 +270,8 @@ p{
 /*LEFTSIDE_HEADER---*/
 
 .leftside_header{
+    box-shadow: 3px 3px 30px #1d1d1d;
     z-index: 3;
-    border-right: 2px solid #ff0000;
     justify-content: space-evenly;
     padding-bottom: 10%;
     display: flex;
@@ -246,68 +280,177 @@ p{
     text-align: center;
     padding-top: 1.7%;
     box-sizing: border-box;
-    margin-top: 6.5%;
+    margin-top: 8%;
     background-color: #1d1d1d;
     width: 10%;
     height: 100%;
     position: fixed;
 }
+.leftside_header_h1.animated{
+    opacity: 1;
+    transform: translate(0px, 0px);
+    transition: 0.4s;
+}
 .leftside_header_h1{
+    opacity: 0;
+    transform: translate(-120%, 0px);
+    transition: 0.4s;
     font-family: Japanease;
     color: #ff0000;
 
 }
-
-
+.maki_wrapper.animated{
+    opacity: 1;
+    transform: translate(0px, 0%);
+    transition: 0.4s;
+}
+.maki_wrapper.activated{
+    background-color: #ff0000;
+    transition: 0.7s;
+}
 .maki_wrapper{
+    opacity: 0;
+    transform: translate(-120%, 0%);
+    transition: 0.4s;
+    transition: 0.7s;
+    height: 25%;
+    cursor: pointer;
     width: 100%;
 }
 .maki_img{
+    transition: 0.4s;
     width: 55%;
 }
 .maki_h3{
+    transition: 0.4s;
     font-family: Japanease;
     color: white;
 }
+.maki_h3.active{
+    transition: 0.4s;
+    font-family: Japanease;
+    color: #ff0000;
+}
+.maki_img.active{
+    transition: 0.4s;
+    width: 65%;
+}
 
 
+
+.sushi_wrapper.animated{
+    opacity: 1;
+    transform: translate(0px, 0%);
+    transition: 0.4s;
+}
+.sushi_wrapper.activated{
+    background-color: #ff0000;
+    transition: 0.7s;
+}
 
 .sushi_wrapper{
+    opacity: 0;
+    transform: translate(-120%, 0%);
+    transition: 0.4s;
+    transition: 0.7s;
+    margin-top: 25%;
+    cursor: pointer;
     width: 100%;
+    height: 25%;
 }
 .sushi_img{
+    transition: 0.4s;
     width: 55%;
 }
 .sushi_h3{
+    transition: 0.4s;
     font-family: Japanease;
     color: white;
 }
+.sushi_h3.active{
+    transition: 0.4s;
+    font-family: Japanease;
+    color: #ff0000;
+}
+.sushi_img.active{
+    transition: 0.4s;
+    width: 65%;
+}
 
-
-
+.gunkans_wrapper.animated{
+    opacity: 1;
+    transform: translate(0px, 0%);
+    transition: 0.4s;
+}
+.gunkans_wrapper.activated{
+    background-color: #ff0000;
+    transition: 0.7s;
+}
 .gunkans_wrapper{
+    opacity: 0;
+    transform: translate(-120%, 0%);
+    transition: 0.4s;
+    transition: 0.7s;
+    height: 25%;
+    cursor: pointer;
     width: 100%;
 }
 .gunkans_img{
+    transition: 0.4s;
     width: 55%;
 }
 .gunkans_h3{
+    transition: 0.4s;
     font-family: Japanease;
     color: white;
 }
+.gunkans_h3.active{
+    transition: 0.4s;
+    font-family: Japanease;
+    color: #ff0000;
+}
+.gunkans_img.active{
+    transition: 0.4s;
+    width: 65%;
+}
 
-
-
-
+.krevetki_wrapper.animated{
+    opacity: 1;
+    transform: translate(0px, 0%);
+    transition: 0.4s;
+}
+.krevetki_wrapper.activated{
+    background-color: #ff0000;
+    transition: 0.7s;
+}
 .krevetki_wrapper{
+    opacity: 0;
+    transform: translate(-120%, 0%);
+    transition: 0.4s;
+    transition: 0.7s;
+    box-sizing: border-box;
+    padding-top: 15%;
+    height: 25%;
+    cursor: pointer;
     width: 100%;
 }
 .krevetki_img{
+    transition: 0.4s;
     width: 55%;
 }
 .krevetki_h3{
+    transition: 0.4s;
     font-family: Japanease;
     color: white;
+}
+.krevetki_h3.active{
+    transition: 0.4s;
+    font-family: Japanease;
+    color: #ff0000;
+}
+.krevetki_img.active{
+    transition: 0.4s;
+    width: 65%;
 }
 
 
@@ -332,6 +475,275 @@ p{
     color: white;
     top: 40%;
     left: 70%;
+}
+
+
+
+.sets_banner{
+    position: absolute;
+    width: 35%;
+    height: 10%;
+}
+.sets_banner_h1{
+    font-family: Japanease;
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 70%;
+}
+
+
+
+
+
+
+/*CONTEXT*/
+
+.sushi_context.active{
+    transition: 0.7s;
+    width: 30%;
+    left: 10%;
+}
+.sushi_context{
+    transition: 0.7s;
+    box-sizing: border-box;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    left: -10%;
+    top: 13%;
+    position: fixed;
+    width: 0%;
+    background-color: #ff0000;
+    height: 100%;
+    box-shadow: 2px 5px 20px #1d1d1d;
+}
+.sushi_context_h1{
+    user-select: none;
+    text-align: center;
+    font-family: Japanease;
+    color: white;
+}
+.sushi_context_p{
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+}
+.sushi_context li {
+    user-select: none;
+    white-space: pre;
+    color: white;
+    font-size: 18px;
+}
+.close_img_sushi{
+    transition: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    width: 7%;
+    right: 5%;
+    top: 5%;
+}
+.close_img_sushi:hover{
+    transition: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    width: 8.5%;
+    right: 5%;
+    top: 5%;
+}
+
+
+
+
+
+.krevetki_context.active{
+    transition: 0.7s;
+    width: 40%;
+    left: 10%;
+}
+.krevetki_context{
+    transition: 0.7s;
+    box-sizing: border-box;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    left: -30%;
+    top: 13%;
+    position: fixed;
+    width: 0%;
+    background-color: #ff0000;
+    height: 100%;
+    box-shadow: 2px 5px 20px #1d1d1d;
+}
+.krevetki_context_h1{
+    user-select: none;
+    text-align: center;
+    font-family: Japanease;
+    color: white;
+}
+.krevetki_context_p{
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+}
+.krevetki_context li {
+    user-select: none;
+    white-space: pre;
+    color: white;
+    font-size: 18px;
+}
+.krevetki_context span {
+    font-weight: 600;
+    user-select: none;
+    white-space: pre;
+    color: black;
+    font-size: 18px;
+}
+.close_img_krevetki{
+    transition: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    width: 7%;
+    right: 5%;
+    top: 5%;
+}
+.close_img_krevetki:hover{
+    transition: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    width: 8.5%;
+    right: 5%;
+    top: 5%;
+}
+.images_krevetki {
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 30%;
+}
+.img_krevetki1{
+    height: 70%;
+    width: 40%;
+}
+.img_krevetki2{
+    width: 40%;
+    height: 70%;
+}
+
+
+
+
+
+.maki_context.active{
+    transition: 0.7s;
+    width: 30%;
+    left: 10%;
+}
+.maki_context{
+    transition: 0.7s;
+    box-sizing: border-box;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    left: -10%;
+    top: 13%;
+    position: fixed;
+    width: 0%;
+    background-color: #ff0000;
+    height: 100%;
+    box-shadow: 2px 5px 20px #1d1d1d;
+}
+.maki_context_h1{
+    user-select: none;
+    text-align: center;
+    font-family: Japanease;
+    color: white;
+}
+.maki_context_p{
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+}
+.maki_context li {
+    user-select: none;
+    white-space: pre;
+    color: white;
+    font-size: 18px;
+}
+.close_img_maki{
+    transition: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    width: 7%;
+    right: 5%;
+    top: 5%;
+}
+.close_img_maki:hover{
+    transition: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    width: 8.5%;
+    right: 5%;
+    top: 5%;
+}
+
+
+
+.gunkans_context.active{
+    transition: 0.7s;
+    width: 30%;
+    left: 10%;
+}
+.gunkans_context{
+    transition: 0.7s;
+    box-sizing: border-box;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    left: -10%;
+    top: 13%;
+    position: fixed;
+    width: 0%;
+    background-color: #ff0000;
+    height: 100%;
+    box-shadow: 2px 5px 20px #1d1d1d;
+}
+.gunkans_context_h1{
+    user-select: none;
+    text-align: center;
+    font-family: Japanease;
+    color: white;
+}
+.gunkans_context_p{
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+}
+.gunkans_context li {
+    user-select: none;
+    white-space: pre;
+    color: white;
+    font-size: 18px;
+}
+.close_img_gunkans{
+    transition: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    width: 7%;
+    right: 5%;
+    top: 5%;
+}
+.close_img_gunkans:hover{
+    transition: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    width: 8.5%;
+    right: 5%;
+    top: 5%;
 }
 
 
