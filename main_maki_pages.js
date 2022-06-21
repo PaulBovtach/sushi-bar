@@ -118,6 +118,7 @@ gunkansWrapper.addEventListener('mouseout', function(){
 
 
 
+
 setsWrapper.addEventListener('click', function(){
     document.location.href = "index.html"
 })
@@ -136,6 +137,9 @@ makiWrapper.addEventListener('click', function(){
 gunkansWrapper.addEventListener('click', function(){
     document.location.href = "index_gunkans_pages.html"
 })
+
+
+
 
 
 
@@ -170,7 +174,5 @@ window.onload = setTimeout(function(){
     rollWrapper.classList.add('animated')
     leftsideHeaderH1.classList.add('animated')
 }, 270)
-
-
 
 
