@@ -142,6 +142,12 @@ gunkansWrapper.addEventListener('click', function(){
 
 
 
+
+
+
+
+
+
 /*ANIMATIONS*/
 
 var logo = document.querySelector('.logo_header')
@@ -170,7 +176,5 @@ window.onload = setTimeout(function(){
     rollWrapper.classList.add('animated')
     leftsideHeaderH1.classList.add('animated')
 }, 270)
-
-
 
 

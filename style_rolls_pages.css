@@ -26,7 +26,7 @@ p{
 .container{
     background-color: white;
     width: 90%;
-    height: 1700px;
+    height: 4200px;
     margin-left: auto;
     padding-top: 9%;
     padding-left: 1%;
@@ -348,7 +348,7 @@ p{
 .roll_h3{
     transition: 0.4s;
     font-family: Japanease;
-    color: white;
+    color: #ff0000;
 }
 .roll_h3.active{
     transition: 0.4s;
@@ -493,22 +493,17 @@ p{
     font-family: Japanease;
     color: #ff0000;
 }
-
-
-
-
-
-
-
 /*CONTAINER*/
-.rolls_banner.active{
-    display: block;
-    position: absolute;
-    width: 35%;
-    height: 10%;
+
+.rolls_wrapper{
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
+
 .rolls_banner{
-    display: none;
+    display: block;
     position: absolute;
     width: 35%;
     height: 10%;
@@ -523,152 +518,4 @@ p{
     color: white;
     top: 40%;
     left: 70%;
-}
-
-
-
-.sets_banner{
-    display: none;
-    position: absolute;
-    width: 35%;
-    height: 10%;
-}
-.sets_banner.active{
-    display: block;
-    position: absolute;
-    width: 35%;
-    height: 10%;
-}
-.sets_banner_h1{
-    font-family: Japanease;
-    position: absolute;
-    color: white;
-    top: 40%;
-    left: 70%;
-}
-
-
-
-.sushi_banner_h1{
-    font-family: Japanease;
-    position: absolute;
-    color: white;
-    top: 40%;
-    left: 70%;
-}
-.sushi_banner.active{
-    display: block;
-    position: absolute;
-    width: 35%;
-    height: 10%;
-}
-.sushi_banner{
-    display: none;
-    position: absolute;
-    width: 35%;
-    height: 10%;
-}
-
-
-.krevetki_banner_h1{
-    font-family: Japanease;
-    position: absolute;
-    color: white;
-    top: 40%;
-    left: 70%;
-}
-.krevetki_banner.active{
-    display: block;
-    position: absolute;
-    width: 35%;
-    height: 10%;
-}
-.krevetki_banner{
-    display: block;
-    position: absolute;
-    width: 35%;
-    height: 10%;
-}
-
-
-
-
-
-
-.sets_wrapper.active{
-    margin-top: 10%;
-    margin-bottom: 10%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-.sets_wrapper{
-    margin-top: 10%;
-    margin-bottom: 10%;
-    width: 100%;
-    display: none;
-    flex-direction: column;
-}
-
-
-.sushi_wrapper_c.active{
-    margin-top: 10%;
-    width: 100%;
-    display: flex;
-}
-
-.sushi_wrapper_c{
-    margin-top: 10%;
-    width: 100%;
-    display: none;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.sushi_img_c{
-    width: 20%;
-}
-.sushi_wrapper_c_text{
-    font-size: 25px;
-
 }
