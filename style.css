@@ -34,9 +34,22 @@ p{
 }
 .header{
     box-shadow: 3px 3px 30px #1d1d1d;
-    z-index: 2;
+    z-index: 3;
     align-items: center;
     display: flex;
+    padding-left: 1.65%;
+    padding-right: 20%;
+    position: fixed;
+    width: 100%;
+    height: 16%;
+    background: #1d1d1d;
+
+}
+.mobile_header{
+    box-shadow: 3px 3px 30px #1d1d1d;
+    z-index: 3;
+    align-items: center;
+    display: none;
     padding-left: 1.65%;
     padding-right: 20%;
     position: fixed;
@@ -271,7 +284,7 @@ p{
 
 .leftside_header{
     box-shadow: 3px 3px 30px #1d1d1d;
-    z-index: 3;
+    z-index: 2;
     justify-content: space-evenly;
     padding-bottom: 10%;
     display: flex;
@@ -336,7 +349,6 @@ p{
 .roll_wrapper_left{
     opacity: 0;
     transform: translate(-120%, 0%);
-    transition: 0.4s;
     width: 100%;
     cursor: pointer;
     transition: 0.4s;
@@ -363,16 +375,12 @@ p{
     transform: translate(0px, 0%);
     transition: 0.4s;
 }
-.maki_wrapper.activated{
-    background-color: #ff0000;
-    transition: 0.7s;
-}
 .maki_wrapper{
     opacity: 0;
     transform: translate(-120%, 0%);
-    transition: 0.4s;
-    cursor: pointer;
     width: 100%;
+    cursor: pointer;
+    transition: 0.4s;
 }
 .maki_img{
     transition: 0.4s;
@@ -405,10 +413,9 @@ p{
 .sushi_wrapper{
     opacity: 0;
     transform: translate(-120%, 0%);
-    transition: 0.4s;
-    transition: 0.7s;
-    cursor: pointer;
     width: 100%;
+    cursor: pointer;
+    transition: 0.4s;
 }
 .sushi_img{
     transition: 0.4s;
@@ -431,17 +438,13 @@ p{
     transform: translate(0px, 0%);
     transition: 0.4s;
 }
-.gunkans_wrapper.activated{
-    background-color: #ff0000;
-    transition: 0.7s;
-}
+
 .gunkans_wrapper{
     opacity: 0;
     transform: translate(-120%, 0%);
-    transition: 0.4s;
-    transition: 0.7s;
-    cursor: pointer;
     width: 100%;
+    cursor: pointer;
+    transition: 0.4s;
 }
 .gunkans_img{
     transition: 0.4s;
@@ -471,13 +474,9 @@ p{
 .krevetki_wrapper{
     opacity: 0;
     transform: translate(-120%, 0%);
-    transition: 0.4s;
-    transition: 0.7s;
-    box-sizing: border-box;
-    padding-top: 15%;
-    height: 25%;
-    cursor: pointer;
     width: 100%;
+    cursor: pointer;
+    transition: 0.4s;
 }
 .krevetki_img{
     transition: 0.4s;
@@ -501,30 +500,11 @@ p{
 
 
 /*CONTAINER*/
-.rolls_banner.active{
-    display: block;
-    position: absolute;
-    width: 35%;
-    height: 10%;
-}
-.rolls_banner{
-    display: none;
-    position: absolute;
-    width: 35%;
-    height: 10%;
-}
+
 .banner_img{
     width: 100%;
     height: 100%;
 }
-.rolls_banner_h1{
-    font-family: Japanease;
-    position: absolute;
-    color: white;
-    top: 40%;
-    left: 70%;
-}
-
 
 
 .sets_banner{
@@ -533,12 +513,15 @@ p{
     width: 35%;
     height: 10%;
 }
+
 .sets_banner.active{
     display: block;
     position: absolute;
     width: 35%;
     height: 10%;
 }
+
+
 .sets_banner_h1{
     font-family: Japanease;
     position: absolute;
@@ -546,50 +529,6 @@ p{
     top: 40%;
     left: 70%;
 }
-
-
-
-.sushi_banner_h1{
-    font-family: Japanease;
-    position: absolute;
-    color: white;
-    top: 40%;
-    left: 70%;
-}
-.sushi_banner.active{
-    display: block;
-    position: absolute;
-    width: 35%;
-    height: 10%;
-}
-.sushi_banner{
-    display: none;
-    position: absolute;
-    width: 35%;
-    height: 10%;
-}
-
-
-.krevetki_banner_h1{
-    font-family: Japanease;
-    position: absolute;
-    color: white;
-    top: 40%;
-    left: 70%;
-}
-.krevetki_banner.active{
-    display: block;
-    position: absolute;
-    width: 35%;
-    height: 10%;
-}
-.krevetki_banner{
-    display: block;
-    position: absolute;
-    width: 35%;
-    height: 10%;
-}
-
 
 
 
@@ -610,65 +549,260 @@ p{
     flex-direction: column;
 }
 
+@media (max-width: 1440px){
+    .leftside_header{
+        padding-bottom: 15%;
+    }
+    .leftside_header_h1{
+        font-size: 19px;
+    }
+    .sets_img {
+        transition: 0.4s;
+        width: 35%;
+    }
+    .rolls_img {
+        transition: 0.4s;
+        width: 35%;
+    }
+    .sushi_img {
+        transition: 0.4s;
+        width: 35%;
+    }
+    .krevetki_img {
+        margin-top: 10%;
+        transition: 0.4s;
+        width: 35%;
+    }
+    .maki_img {
+        transition: 0.4s;
+        width: 35%;
+    }
+    .gunkans_img {
+        transition: 0.4s;
+        width: 35%;
+    }
 
-.sushi_wrapper_c.active{
-    margin-top: 10%;
-    width: 100%;
-    display: flex;
+
+    .set_h3{
+        font-size: 16px;
+    }
+    .roll_h3{
+        font-size: 16px;
+    }
+    .sushi_h3{
+        font-size: 16px;
+    }
+    .krevetki_h3{
+        font-size: 16px;
+    }
+    .maki_h3{
+        font-size: 16px;
+    }
+    .gunkans_h3{
+        font-size: 16px;
+    }
+
+    .sets_banner_h1 {
+        left: 50%;
+    }
 }
+@media (max-width: 1150px){
+    .header_h1{
+        font-size: 14px;
+    }
+    .phones_numbers_header{
+        font-size: 14px;
+    }
+    .loaction_p {
+        font-size: 14px;
+    }
+    .action_h1 {
+        font-size: 17px;
+        top: 55%;
+    }
+    .action_p1.active {
+        font-size: 12px;
+        top: 125%;
+    }
+    .action_p2.active {
+        font-size: 12px;
+        top: 225%;
 
-.sushi_wrapper_c{
-    margin-top: 10%;
-    width: 100%;
-    display: none;
+    }
 }
+@media (max-width: 1050px){
+    .container{
+        height: 1400px;
+    }
+    .action_wrapper.active{
+        width: 65%;
+        margin-right: 5%;
+    }
+    .action_wrapper{
+        width: 65%;
+        margin-right: 5%;
+    }
+    .action_p1.active {
+        font-size: 10px;
+        top: 125%;
+        width: 12%;
+    }
+    .action_p2.active {
+        font-size: 10px;
+        top: 225%;
+        width: 12%;
+    }
+    .header{
+        padding-right: 5%;
+    }
+    .logo_header {
+        width: 15%;
+    }
+    .header_h1{
+        font-size: 13px;
+    }
+    .tel_header1 {
+        font-size: 11px;
+    }
+    .tel_header2 {
+        font-size: 11px;
+    }
+    .loaction_p {
+        font-size: 10px;
+    }
+    .action_h1 {
+        font-size: 14px;
+        top: 65%;
+    }
 
 
 
+    .sets_wrapper.active {
+        margin-top: 20%;
+    }
+    .sets_banner.active {
+    margin-top: 7%;
+    }
 
 
+    .leftside_header{
+        padding-top: 4%;
+    }
+    .leftside_header_h1 {
+        font-size: 16px;
+    }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.sushi_img_c{
-    width: 20%;
+    .set_h3{
+        font-size: 11px;
+    }
+    .roll_h3{
+        font-size: 11px;
+    }
+    .sushi_h3{
+        font-size: 11px;
+    }
+    .krevetki_h3{
+        font-size: 11px;
+    }
+    .maki_h3{
+        font-size: 11px;
+    }
+    .gunkans_h3{
+        font-size: 11px;
+    }
 }
-.sushi_wrapper_c_text{
-    font-size: 25px;
+@media (max-width: 1050px){
+    .leftside_header{
+        display: none;
+    }
+    .header{
+        display: none;
+    }
+    .container{
+        width: 100%;
+    }
+
+
+    .mobile_header{
+        display: flex;
+        height: 11%;
+    }
+    .logo_header{
+        width: 14%;
+        height: 50%;
+    }
+    .header_h1 {
+        width: 80%;
+        font-size: 10px;
+    }
+    .tel_header1 {
+        font-size: 10px;
+    }
+    .tel_header2 {
+        font-size: 10px;
+    }
+    .action_h1{
+        top: 55%;
+    }
+}
+@media (max-width: 425px){
+    .container{
+        height: 3170px;
+    }
+    .mobile_header{
+        display: flex;
+        height: 11%;
+        padding-left: 3%;
+    }
+    .logo_header{
+        width: 10%;
+        height: 40%;
+    }
+    .header_h1 {
+        width: 80%;
+        font-size: 7px;
+    }
+    .tel_header1 {
+        font-size: 9px;
+    }
+    .tel_header2 {
+        font-size: 9px;
+    }
+    .action_wrapper.active {
+        width: 170%;
+    }
+    .action_wrapper {
+        width: 170%;
+    }
+    .action_p1.active {
+        font-size: 8px;
+        top: 125%;
+        width: 15%;
+    }
+    .action_p2.active {
+        font-size: 8px;
+        top: 225%;
+        width: 15%;
+    }
+    .action_h1{
+        top: 55%;
+        font-size: 9px;
+    }
+    .arrow_down_img {
+        cursor: pointer;
+        transition: 0.4s;
+        position: absolute;
+        margin-top: 5%;
+        width: 3.5%;
+        bottom: 10%;
+    }
+    .sets_banner.active {
+        display: block;
+        position: absolute;
+        width: 85%;
+        height: 10%;
+        margin-top: 17%;
+    }
 
 }
