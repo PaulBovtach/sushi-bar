@@ -25,6 +25,11 @@ p{
 .logo_header_mob {
     width: 10%;
     height: 40%;
+    transition: 0.4s;
+}
+.logo_header_mob.active {
+   transform: rotate(90deg);
+   transition: 0.4s;
 }
 .mobile_menu.active{
     transition: 0.4s;
@@ -33,6 +38,7 @@ p{
     height: 100%;
 }
 .mobile_menu{
+    padding-bottom: 10%;
     transition: 0.4s;
     opacity: 0;
     padding-top: 15%;
@@ -47,6 +53,7 @@ p{
     width: 40%;
 
 }
+
 .mobile_h1{
     color: #ff0000;
     font-family: Japanease;
@@ -849,14 +856,19 @@ p{
 
 
 
-    .sets_wrapper_left{
+    .sets_wrapper_left.active{
+        display: flex;
+    }
+
+    .sets_wrapper_left {
         margin-top: 5%;
         justify-content: space-evenly;
-        display: flex;
+        display: none;
         align-items: center;
         flex-direction: row;
         width: 100%;
     }
+
     .set_h3{
         color: #ff0000;
         font-size: 18px;
@@ -865,10 +877,14 @@ p{
         width: 15%;
     }
 
+
+    .roll_wrapper_left.active{
+        display: flex;
+    }
     .roll_wrapper_left{
         margin-top: 5%;
         justify-content: space-evenly;
-        display: flex;
+        display: none;
         align-items: center;
         flex-direction: row;
         width: 100%;
@@ -882,11 +898,13 @@ p{
     }
 
 
-
+    .sushi_wrapper.active{
+        display: flex;
+    }
     .sushi_wrapper{
         margin-top: 5%;
         justify-content: space-evenly;
-        display: flex;
+        display: none;
         align-items: center;
         flex-direction: row;
         width: 100%;
@@ -899,13 +917,15 @@ p{
         width: 15%;
     }
 
-
+    .krevetki_wrapper.active{
+        display: flex;
+    }
 
     .krevetki_wrapper{
         margin-top: 5%;
         padding-top: 0;
         justify-content: space-evenly;
-        display: flex;
+        display: none;
         align-items: center;
         flex-direction: row;
         width: 100%;
@@ -920,11 +940,13 @@ p{
     }
 
 
-
+    .maki_wrapper.active{
+        display: flex;
+    }
     .maki_wrapper{
         margin-top: 5%;
         justify-content: space-evenly;
-        display: flex;
+        display: none;
         align-items: center;
         flex-direction: row;
         width: 100%;
@@ -937,11 +959,13 @@ p{
         width: 15%;
     }
 
-
+    .gunkans_wrapper.active{
+        display: flex;
+    }
     .gunkans_wrapper{
         margin-top: 5%;
         justify-content: space-evenly;
-        display: flex;
+        display: none;
         align-items: center;
         flex-direction: row;
         width: 100%;

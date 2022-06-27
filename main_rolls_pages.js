@@ -163,3 +163,29 @@ window.onload = setTimeout(function(){
     rollWrapper.classList.add('animated')
     leftsideHeaderH1.classList.add('animated')
 }, 270)
+
+
+
+
+
+
+/*MOBILE*/
+
+
+var burgerBtn = document.querySelector('.logo_header_mob')
+
+burgerBtn.addEventListener('click', function(){
+
+    var mobileMenu = document.querySelector('.mobile_menu')
+    mobileMenu.classList.toggle('active')
+    burgerBtn.classList.toggle('active')
+
+
+
+    sushiWrapper.classList.toggle('active')
+    makiWrapper.classList.toggle('active')
+    krevetkiWrapper.classList.toggle('active')
+    gunkansWrapper.classList.toggle('active')
+    setsWrapper.classList.toggle('active')
+    rollWrapper.classList.toggle('active')
+})
