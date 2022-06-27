@@ -1600,3 +1600,324 @@
 .roll27_price span{
     font-family: Japanease;
 }
+
+
+@media (max-width: 1150px){
+    .roll1_wrapper{
+        width: 20%;
+    }
+    .roll2_wrapper{
+        width: 20%;
+    }
+    .roll3_wrapper{
+        width: 20%;
+    }
+    .roll4_wrapper{
+        width: 20%;
+    }
+    .roll5_wrapper{
+        width: 20%;
+    }
+    .roll6_wrapper{
+        width: 20%;
+    }
+    .roll7_wrapper{
+        width: 20%;
+    }
+    .roll8_wrapper{
+        width: 20%;
+    }
+
+    .roll9_wrapper{
+        width: 20%;
+    }
+    .roll10_wrapper{
+        width: 20%;
+    }
+    .roll11_wrapper{
+        width: 20%;
+    }
+    .roll12_wrapper{
+        width: 20%;
+    }
+    .roll13_wrapper{
+        width: 20%;
+    }
+    .roll14_wrapper{
+        width: 20%;
+    }
+    .roll15_wrapper{
+        width: 20%;
+    }
+    .roll16_wrapper{
+        width: 20%;
+    }
+
+    .roll17_wrapper{
+        width: 20%;
+    }
+    .roll18_wrapper{
+        width: 20%;
+    }
+    .roll19_wrapper{
+        width: 20%;
+    }
+    .roll20_wrapper{
+        width: 20%;
+    }
+    .roll21_wrapper{
+        width: 20%;
+    }
+    .roll22_wrapper{
+        width: 20%;
+    }
+    .roll23_wrapper{
+        width: 20%;
+    }
+    .roll24_wrapper{
+        width: 20%;
+    }
+    .roll25_wrapper{
+        width: 20%;
+    }
+    .roll26_wrapper{
+        width: 20%;
+    }
+    .roll27_wrapper{
+        width: 20%;
+    }
+
+
+    .roll1_p{
+        font-size: 11px;
+    }
+    .roll2_p{
+        font-size: 11px;
+    }
+    .roll3_p{
+        font-size: 11px;
+    }
+    .roll4_p{
+        font-size: 11px;
+    }
+    .roll5_p{
+        font-size: 11px;
+    }
+    .roll6_p{
+        font-size: 11px;
+    }
+    .roll7_p{
+        font-size: 11px;
+    }
+    .roll8_p{
+        font-size: 11px;
+    }
+    .roll9_p{
+        font-size: 11px;
+    }
+    .roll10_p{
+        font-size: 11px;
+    }
+    .roll11_p{
+        font-size: 11px;
+    }
+    .roll12_p{
+        font-size: 11px;
+    }
+    .roll13_p{
+        font-size: 11px;
+    }
+    .roll14_p{
+        font-size: 11px;
+    }
+    .roll15_p{
+        font-size: 11px;
+    }
+    .roll16_p{
+        font-size: 11px;
+    }
+    .roll17_p{
+        font-size: 11px;
+    }
+    .roll18_p{
+        font-size: 11px;
+    }
+    .roll19_p{
+        font-size: 11px;
+    }
+    .roll20_p{
+        font-size: 11px;
+    }
+    .roll21_p{
+        font-size: 11px;
+    }
+    .roll22_p{
+        font-size: 11px;
+    }
+    .roll23_p{
+        font-size: 11px;
+    }
+    .roll24_p{
+        font-size: 11px;
+    }
+    .roll25_p{
+        font-size: 11px;
+    }
+    .roll26_p{
+        font-size: 11px;
+    }
+    .roll27_p{
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 425px){
+    .rolls_wrap1{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .rolls_wrap2{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .rolls_wrap3{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .rolls_wrap4{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .rolls_wrap5{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .rolls_wrap6{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .rolls_wrap7{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .rolls_wrap8{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .rolls_wrap9{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .rolls_wrapper.active{
+        margin-top: 45%;
+    }
+
+    .roll1_wrapper{
+        width: 60%;
+    }
+    .roll2_wrapper{
+        margin-top: 8%;
+        width: 60%;
+    }
+    .roll3_wrapper{
+        margin-top: 8%;
+        width: 60%;
+    }
+    .roll4_wrapper{
+        width: 60%;
+    }
+    .roll5_wrapper{
+        margin-top: 8%;
+        width: 60%;
+    }
+    .roll6_wrapper{
+        margin-top: 8%;
+        width: 60%;
+    }
+    .roll7_wrapper{
+        width: 60%;
+    }
+    .roll8_wrapper{
+        margin-top: 8%;
+        width: 60%;
+    }
+    .roll9_wrapper{
+        margin-top: 8%;
+        width: 60%;
+    }
+    .roll10_wrapper{
+        width: 60%;
+    }
+    .roll11_wrapper{
+        margin-top: 8%;
+        width: 60%;
+    }
+    .roll12_wrapper{
+        margin-top: 8%;
+        width: 60%;
+    }
+    .roll13_wrapper{
+        width: 60%;
+    }
+    .roll14_wrapper{
+        margin-top: 8%;
+        width: 60%;
+    }
+    .roll15_wrapper{
+        margin-top: 8%;
+        width: 60%;
+    }
+    .roll16_wrapper{
+        width: 60%;
+    }
+    .roll17_wrapper{
+        margin-top: 8%;
+        width: 60%;
+    }
+    .roll18_wrapper{
+        margin-top: 8%;
+        width: 60%;
+    }
+    .roll19_wrapper{
+        width: 60%;
+    }
+    .roll20_wrapper{
+        margin-top: 8%;
+        width: 60%;
+    }
+    .roll21_wrapper{
+        margin-top: 8%;
+        width: 60%;
+    }
+    .roll22_wrapper{
+        width: 60%;
+    }
+    .roll23_wrapper{
+        margin-top: 8%;
+        width: 60%;
+    }
+    .roll24_wrapper{
+        margin-top: 8%;
+        width: 60%;
+    }
+    .roll25_wrapper{
+        width: 60%;
+    }
+    .roll26_wrapper{
+        margin-top: 8%;
+        width: 60%;
+    }
+    .roll27_wrapper{
+        margin-top: 8%;
+        width: 60%;
+    }
+}

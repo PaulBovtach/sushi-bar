@@ -1,4 +1,32 @@
 
+/*ANIMATIONS*/
+
+var logo = document.querySelector('.logo_header')
+var headerH1 = document.querySelector('.header_h1')
+var phonesHeader = document.querySelector('.phones_header')
+var locationWrapper = document.querySelector('.location_wrapper')
+var actionWrapper = document.querySelector('.action_wrapper')
+var leftsideHeaderH1 = document.querySelector('.leftside_header_h1')
+
+window.onload = setTimeout(function(){
+    logo.classList.add('animated')
+    headerH1.classList.add('animated')
+    phonesHeader.classList.add('animated')
+    locationWrapper.classList.add('animated')
+    actionWrapper.classList.add('animated')
+},270)
+
+
+
+window.onload = setTimeout(function(){
+    sushiWrapper.classList.add('animated')
+    makiWrapper.classList.add('animated')
+    krevetkiWrapper.classList.add('animated')
+    gunkansWrapper.classList.add('animated')
+    setsWrapper.classList.add('animated')
+    rollWrapper.classList.add('animated')
+    leftsideHeaderH1.classList.add('animated')
+}, 270)
 
 /*HEADER---*/
 
@@ -142,44 +170,26 @@ gunkansWrapper.addEventListener('click', function(){
 
 
 
-/*ANIMATIONS*/
-
-var logo = document.querySelector('.logo_header')
-var headerH1 = document.querySelector('.header_h1')
-var phonesHeader = document.querySelector('.phones_header')
-var locationWrapper = document.querySelector('.location_wrapper')
-var actionWrapper = document.querySelector('.action_wrapper')
-var leftsideHeaderH1 = document.querySelector('.leftside_header_h1')
-
-window.onload = setTimeout(function(){
-    logo.classList.add('animated')
-    headerH1.classList.add('animated')
-    phonesHeader.classList.add('animated')
-    locationWrapper.classList.add('animated')
-    actionWrapper.classList.add('animated')
-},270)
-
-
-
-window.onload = setTimeout(function(){
-    sushiWrapper.classList.add('animated')
-    makiWrapper.classList.add('animated')
-    krevetkiWrapper.classList.add('animated')
-    gunkansWrapper.classList.add('animated')
-    setsWrapper.classList.add('animated')
-    rollWrapper.classList.add('animated')
-    leftsideHeaderH1.classList.add('animated')
-}, 270)
 
 
 
 
 /*MOBILE*/
 
-
 var burgerBtn = document.querySelector('.logo_header_mob')
 
 burgerBtn.addEventListener('click', function(){
+
     var mobileMenu = document.querySelector('.mobile_menu')
     mobileMenu.classList.toggle('active')
+    burgerBtn.classList.toggle('active')
+
+
+
+    sushiWrapper.classList.toggle('active')
+    makiWrapper.classList.toggle('active')
+    krevetkiWrapper.classList.toggle('active')
+    gunkansWrapper.classList.toggle('active')
+    setsWrapper.classList.toggle('active')
+    rollWrapper.classList.toggle('active')
 })
