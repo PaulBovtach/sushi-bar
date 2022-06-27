@@ -174,3 +174,12 @@ window.onload = setTimeout(function(){
 
 
 
+/*MOBILE*/
+
+
+var burgerBtn = document.querySelector('.logo_header_mob')
+
+burgerBtn.addEventListener('click', function(){
+    var mobileMenu = document.querySelector('.mobile_menu')
+    mobileMenu.classList.toggle('active')
+})
