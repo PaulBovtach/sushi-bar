@@ -1145,5 +1145,14 @@ p{
         transition: 0.4s;
         opacity: 1;
     }
+
+
+    .tel_header1{
+        margin-top: 5%;
+        font-size: 15px;
+    }
+    .tel_header2{
+        font-size: 15px;
+    }
 }
 

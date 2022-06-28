@@ -1173,6 +1173,16 @@ p{
         margin-left: 0;
         margin-top: 20px;
     }
+
+
+
+    .tel_header1{
+        margin-top: 5%;
+        font-size: 15px;
+    }
+    .tel_header2{
+        font-size: 15px;
+    }
 }
 
 
