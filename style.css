@@ -952,12 +952,12 @@ p{
         height: 3170px;
     }
     .mobile_header{
+        padding-left: 0%;
+        padding-right: 15%;
         display: flex;
         justify-content: space-evenly;
         flex-direction: column;
         height: 21%;
-        padding-left: 10%;
-        padding-right: 10%; 
     }
     .logo_header {
         width: 40%;
