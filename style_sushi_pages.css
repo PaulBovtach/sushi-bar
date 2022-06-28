@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: Japanease; /* Гарнитура шрифта */
     src: url(HanZi.ttf); /* Путь к файлу со шрифтом */
@@ -42,7 +41,7 @@ p{
     padding-bottom: 10%;
     transition: 0.4s;
     opacity: 0;
-    padding-top: 45%;
+    padding-top: 38%;
     width: 100%;
     background-color: #1d1d1d;
     position: fixed;
@@ -71,7 +70,8 @@ p{
     z-index: 3;
     align-items: center;
     display: none;
-
+    padding-left: 10%;
+    padding-right: 10%;
     position: fixed;
     width: 100%;
     height: 16%;
@@ -80,7 +80,8 @@ p{
 
 }
 .menu_header_h1_mob{
-    font-size: 18px;
+    margin-right: 15px;
+    font-size: 15px;
     color: #ff0000;
     font-family: Japanease;
 }
@@ -653,7 +654,6 @@ p{
 
 
 
-
 /*CONTAINER*/
 
 
@@ -683,21 +683,6 @@ p{
 
 
 
-
-
-
-
-
-
-.sushi_img_c{
-    margin-left: 10%;
-}
-
-.sushi_wrapper_c{
-    margin-top: 10%;
-    width: 100%;
-    display: flex;
-}
 
 
 @media (max-width: 1440px){
@@ -871,11 +856,11 @@ p{
     }
 
 
-    .rolls_wrapper.active {
+    .sets_wrapper.active {
         margin-top: 20%;
     }
-    .rolls_banner.active {
-        margin-top: 7%;
+    .sets_banner.active {
+    margin-top: 7%;
     }
 
 
@@ -946,20 +931,23 @@ p{
 }
 @media (max-width: 425px){
     .container{
-        height: 1100px;
+        height: 1300px;
     }
     .mobile_header{
+        padding-left: 0%;
         display: flex;
         justify-content: space-evenly;
         flex-direction: column;
         height: 21%;
     }
     .logo_header {
-        width: 40%;
-        height: 80%;
+        margin-left: 15px;
+        width: 20%;
+        height: 65%;
     }
     .header_h1 {
-        font-size: 10px;
+        margin: 0;
+        font-size: 14px;
     }
     .tel_header1 {
         font-size: 9px;
@@ -1166,11 +1154,13 @@ p{
         width: 100%;
     }
     .tel_header1{
-        font-size: 9px;
+        font-size: 12px;
     }
     .tel_header2{
-        font-size: 9px;
+        font-size: 12px;
     }
+
+
     .sushi_banner {
         display: block;
         position: absolute;
@@ -1195,4 +1185,21 @@ p{
         margin-top: 20px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
