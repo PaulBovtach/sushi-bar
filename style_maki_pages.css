@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: Japanease; /* Гарнитура шрифта */
     src: url(HanZi.ttf); /* Путь к файлу со шрифтом */
@@ -41,7 +42,7 @@ p{
     padding-bottom: 10%;
     transition: 0.4s;
     opacity: 0;
-    padding-top: 15%;
+    padding-top: 45%;
     width: 100%;
     background-color: #1d1d1d;
     position: fixed;
@@ -70,14 +71,34 @@ p{
     z-index: 3;
     align-items: center;
     display: none;
-    padding-left: 1.65%;
-    padding-right: 20%;
+
     position: fixed;
     width: 100%;
     height: 16%;
     background: #1d1d1d;
+    
 
 }
+.menu_header_h1_mob{
+    font-size: 18px;
+    color: #ff0000;
+    font-family: Japanease;
+}
+
+.line1{
+    height: 50%;
+    align-items: center;
+    display: flex;
+}
+.line2{
+    align-items: center;
+    height: 50%;
+    display: flex;
+}
+
+
+
+
 
 
 
@@ -322,7 +343,7 @@ p{
     display: flex;
     flex-direction: column;
     background-color: #1d1d1d;
-    height: 620%;
+    height: 730%;
     margin-right: 10%;
     align-items: center;
     text-align: center;
@@ -681,6 +702,10 @@ p{
 
 
 
+
+
+
+
 @media (max-width: 1440px){
     .leftside_header{
         padding-bottom: 15%;
@@ -852,11 +877,11 @@ p{
     }
 
 
-    .sets_wrapper.active {
+    .rolls_wrapper.active {
         margin-top: 20%;
     }
-    .sets_banner.active {
-    margin-top: 7%;
+    .rolls_banner.active {
+        margin-top: 7%;
     }
 
 
@@ -927,22 +952,20 @@ p{
 }
 @media (max-width: 425px){
     .container{
-        width: 100%;
-        height: 1000px;
+        height: 1100px;
     }
     .mobile_header{
         display: flex;
         justify-content: space-evenly;
-        height: 11%;
-        padding-left: 10%;
+        flex-direction: column;
+        height: 21%;
     }
-    .logo_header{
-        width: 10%;
-        height: 40%;
+    .logo_header {
+        width: 40%;
+        height: 80%;
     }
     .header_h1 {
-        width: 128%;
-        font-size: 9px;
+        font-size: 10px;
     }
     .tel_header1 {
         font-size: 9px;
@@ -980,10 +1003,10 @@ p{
 
 
     .action_wrapper_mob.active {
-        width: 170%;
+        width: 60%;
     }
     .action_wrapper_mob {
-        width: 170%;
+        width: 60%;
     }
     .action_p1_mob.active {
         font-size: 8px;
@@ -996,20 +1019,20 @@ p{
         width: 15%;
     }
     .action_h1_mob{
-        top: 55%;
-        font-size: 9px;
+        top: 70%;
+        font-size: 10px;
     }
     .arrow_down_img_mob {
         margin-top: 5%;
         width: 3.5%;
         bottom: 10%;
     }
-    .sets_banner.active {
+    .rolls_banner.active {
         display: block;
         position: absolute;
         width: 85%;
         height: 10%;
-        margin-top: 17%;
+        margin-top: 43%;
     }
 
 
@@ -1145,15 +1168,21 @@ p{
         transition: 0.4s;
         opacity: 1;
     }
-
-
-
+    .phones_header.animated{
+        width: 100%;
+    }
+    .tel_header1{
+        font-size: 9px;
+    }
+    .tel_header2{
+        font-size: 9px;
+    }
     .krevetki_banner {
         display: block;
         position: absolute;
         width: 85%;
         height: 10%;
-        margin-top: 17%;
+        margin-top: 42%;
     }
     .krevetki_banner_h1{
         left: 15%;
@@ -1165,23 +1194,15 @@ p{
     .krevetki_wrapper_c{
         flex-direction: column;
         align-items: center;
-        margin-top: 45%;
+        margin-top: 75%;
     }
     .krevetki_img_c {
         width: 65%;
-        margin-left: 0;
         margin-top: 20px;
     }
-
-
-    .tel_header1{
-        margin-top: 5%;
-        font-size: 15px;
-    }
-    .tel_header2{
-        font-size: 15px;
-    }
 }
+
+
 
 
 
