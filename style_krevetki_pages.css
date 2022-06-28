@@ -22,11 +22,70 @@ p{
 
 
 /*HEADER---*/
+.logo_header_mob {
+    width: 10%;
+    height: 40%;
+    transition: 0.4s;
+}
+.logo_header_mob.active {
+   transform: rotate(90deg);
+   transition: 0.4s;
+}
+.mobile_menu.active{
+    transition: 0.4s;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+}
+.mobile_menu{
+    padding-bottom: 10%;
+    transition: 0.4s;
+    opacity: 0;
+    padding-top: 15%;
+    width: 100%;
+    background-color: #1d1d1d;
+    position: fixed;
+    margin-top: 11%;
+    height: 0%;
+    z-index: 2;
+}
+.mobile_logo{
+    width: 40%;
+
+}
+
+.mobile_h1{
+    color: #ff0000;
+    font-family: Japanease;
+}
+.wrapper_mobile_menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.mobile_header{
+    box-shadow: 3px 3px 30px #1d1d1d;
+    z-index: 3;
+    align-items: center;
+    display: none;
+    padding-left: 1.65%;
+    padding-right: 20%;
+    position: fixed;
+    width: 100%;
+    height: 16%;
+    background: #1d1d1d;
+
+}
+
+
+
 
 .container{
     background-color: white;
     width: 90%;
-    height: 1000px;
+    height: 1700px;
     margin-left: auto;
     padding-top: 9%;
     padding-left: 1%;
@@ -34,7 +93,7 @@ p{
 }
 .header{
     box-shadow: 3px 3px 30px #1d1d1d;
-    z-index: 2;
+    z-index: 4;
     align-items: center;
     display: flex;
     padding-left: 1.65%;
@@ -58,15 +117,7 @@ p{
     width: 10%;
     height: 100%;
 }
-.header_h1.animated{
-    opacity: 1;
-    transform: translate(0px, 0%);
-    transition: 0.4s;
-}
 .header_h1{
-    transition: 0.4s;
-    transform: translate(0px, 120%);
-    opacity: 0;
     font-family: Japanease;
     color: #ff0000;
     margin-left: 6%;
@@ -150,11 +201,6 @@ p{
 
 
 
-.action_wrapper.animated{
-    opacity: 1;
-    transition: 0.4s;
-}
-
 .action_wrapper.active{
     transition: 0.4s;
     display: flex;
@@ -170,7 +216,6 @@ p{
     border-bottom-right-radius: 10px;
 }
 .action_wrapper{
-    opacity: 0;
     transition: 0.4s;
     display: flex;
     flex-direction: column;
@@ -267,11 +312,125 @@ p{
 
 
 
+
+
+
+
+
+.action_wrapper_mob.active{
+    transition: 0.4s;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    height: 620%;
+    margin-right: 10%;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    width: 45%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.action_wrapper_mob{
+    transition: 0.4s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    margin-right: 10%;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    width: 45%;
+
+}
+.visible_part_mob{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.action_h1_mob{
+    position: absolute;
+    font-family: Japanease;
+    color: #ff0000;
+    font-size: 22px;
+    top: 35%;
+}
+.arrow_down_img_mob{
+    cursor: pointer;
+    transition: 0.4s;
+    position: absolute;
+    margin-top: 5%;
+    width: 1.5%;
+    bottom: 10%;
+}
+
+.arrow_down_img_mob.active{
+    transition: 0.4s;
+    transform: rotate(180deg);
+}
+
+
+.action_p1_mob.active{
+    transition: 0.8s;
+    opacity: 1;
+    font-size: 16px;
+    font-weight: 600;
+    top: 125%;
+    width: 10%;
+    color: #ff0000;
+    position: absolute;
+}
+.action_p1_mob span{
+    font-family: Japanease;
+}
+.action_p1_mob{
+    transition: 0.2s;
+    opacity: 0;
+    font-size: 0;
+    font-weight: 600;
+    top: 125%;
+    width: 10%;
+    color: #ff0000;
+    position: absolute;
+}
+.action_p2_mob.active{
+    transition: 0.8s;
+    opacity: 1;
+    font-size: 16px;
+    font-weight: 600;
+    top: 250%;
+    width: 6%;
+    color: #ff0000;
+    position: absolute;
+}
+
+.action_p2_mob{
+    transition: 0.2s;
+    opacity: 0;
+    font-size: 0;
+    font-weight: 600;
+    top: 250%;
+    width: 6%;
+    color: #ff0000;
+    position: absolute;
+}
+
+.action_p2_mob span{
+    font-family: Japanease;
+}
+
+
 /*LEFTSIDE_HEADER---*/
 
 .leftside_header{
     box-shadow: 3px 3px 30px #1d1d1d;
-    z-index: 3;
+    z-index: 2;
     justify-content: space-evenly;
     padding-bottom: 10%;
     display: flex;
@@ -292,8 +451,6 @@ p{
     transition: 0.4s;
 }
 .leftside_header_h1{
-    opacity: 0;
-    transform: translate(-120%, 0px);
     transition: 0.4s;
     font-family: Japanease;
     color: #ff0000;
@@ -307,8 +464,7 @@ p{
     transition: 0.4s;
 }
 .sets_wrapper_left{
-    opacity: 0;
-    transform: translate(-120%, 0%);
+
     width: 100%;
     cursor: pointer;
     transition: 0.4s;
@@ -320,7 +476,7 @@ p{
 .set_h3{
     transition: 0.4s;
     font-family: Japanease;
-    color: #ff0000;
+    color: white;
 }
 .set_h3.active{
     transition: 0.4s;
@@ -334,9 +490,6 @@ p{
     transition: 0.4s;
 }
 .roll_wrapper_left{
-    opacity: 0;
-    transform: translate(-120%, 0%);
-    transition: 0.4s;
     width: 100%;
     cursor: pointer;
     transition: 0.4s;
@@ -363,16 +516,10 @@ p{
     transform: translate(0px, 0%);
     transition: 0.4s;
 }
-.maki_wrapper.activated{
-    background-color: #ff0000;
-    transition: 0.7s;
-}
 .maki_wrapper{
-    opacity: 0;
-    transform: translate(-120%, 0%);
-    transition: 0.4s;
-    cursor: pointer;
     width: 100%;
+    cursor: pointer;
+    transition: 0.4s;
 }
 .maki_img{
     transition: 0.4s;
@@ -403,12 +550,9 @@ p{
 }
 
 .sushi_wrapper{
-    opacity: 0;
-    transform: translate(-120%, 0%);
-    transition: 0.4s;
-    transition: 0.7s;
-    cursor: pointer;
     width: 100%;
+    cursor: pointer;
+    transition: 0.4s;
 }
 .sushi_img{
     transition: 0.4s;
@@ -431,17 +575,11 @@ p{
     transform: translate(0px, 0%);
     transition: 0.4s;
 }
-.gunkans_wrapper.activated{
-    background-color: #ff0000;
-    transition: 0.7s;
-}
+
 .gunkans_wrapper{
-    opacity: 0;
-    transform: translate(-120%, 0%);
-    transition: 0.4s;
-    transition: 0.7s;
-    cursor: pointer;
     width: 100%;
+    cursor: pointer;
+    transition: 0.4s;
 }
 .gunkans_img{
     transition: 0.4s;
@@ -469,15 +607,9 @@ p{
     transition: 0.7s;
 }
 .krevetki_wrapper{
-    opacity: 0;
-    transform: translate(-120%, 0%);
-    transition: 0.4s;
-    transition: 0.7s;
-    box-sizing: border-box;
-    padding-top: 15%;
-    height: 25%;
-    cursor: pointer;
     width: 100%;
+    cursor: pointer;
+    transition: 0.4s;
 }
 .krevetki_img{
     transition: 0.4s;
@@ -493,6 +625,7 @@ p{
     font-family: Japanease;
     color: #ff0000;
 }
+
 
 
 
@@ -540,4 +673,514 @@ p{
 .krevetki_wrapper_c_text ul{
    line-height: 2.3;
 }
+
+
+
+
+
+@media (max-width: 1440px){
+    .leftside_header{
+        padding-bottom: 15%;
+    }
+    .leftside_header_h1{
+        font-size: 19px;
+    }
+    .sets_img {
+        transition: 0.4s;
+        width: 35%;
+    }
+    .rolls_img {
+        transition: 0.4s;
+        width: 35%;
+    }
+    .sushi_img {
+        transition: 0.4s;
+        width: 35%;
+    }
+    .krevetki_img {
+        margin-top: 10%;
+        transition: 0.4s;
+        width: 35%;
+    }
+    .maki_img {
+        transition: 0.4s;
+        width: 35%;
+    }
+    .gunkans_img {
+        transition: 0.4s;
+        width: 35%;
+    }
+
+
+    .set_h3{
+        font-size: 16px;
+    }
+    .roll_h3{
+        font-size: 16px;
+    }
+    .sushi_h3{
+        font-size: 16px;
+    }
+    .krevetki_h3{
+        font-size: 16px;
+    }
+    .maki_h3{
+        font-size: 16px;
+    }
+    .gunkans_h3{
+        font-size: 16px;
+    }
+
+    .sets_banner_h1 {
+        left: 50%;
+    }
+}
+@media (max-width: 1150px){
+    .header_h1{
+        font-size: 14px;
+    }
+    .phones_numbers_header{
+        font-size: 14px;
+    }
+    .loaction_p {
+        font-size: 14px;
+    }
+    .action_h1 {
+        font-size: 17px;
+        top: 55%;
+    }
+    .action_p1.active {
+        font-size: 12px;
+        top: 125%;
+    }
+    .action_p2.active {
+        font-size: 12px;
+        top: 225%;
+
+    }
+
+
+
+    .action_h1_mob {
+        font-size: 17px;
+        top: 55%;
+    }
+    .action_p1_mob.active {
+        font-size: 12px;
+        top: 125%;
+    }
+    .action_p2_mob.active {
+        font-size: 12px;
+        top: 225%;
+
+    }
+}
+@media (max-width: 1050px){
+    .container{
+        height: 1400px;
+    }
+    .action_wrapper.active{
+        width: 65%;
+        margin-right: 5%;
+    }
+    .action_wrapper{
+        width: 65%;
+        margin-right: 5%;
+    }
+    .action_p1.active {
+        font-size: 10px;
+        top: 125%;
+        width: 12%;
+    }
+    .action_p2.active {
+        font-size: 10px;
+        top: 225%;
+        width: 12%;
+    }
+
+
+
+
+    .action_wrapper_mob.active{
+        width: 65%;
+        margin-right: 5%;
+    }
+    .action_wrapper_mob{
+        width: 65%;
+        margin-right: 5%;
+    }
+    .action_p1_mob.active {
+        font-size: 10px;
+        top: 125%;
+        width: 12%;
+    }
+    .action_p2_mob.active {
+        font-size: 10px;
+        top: 225%;
+        width: 12%;
+    }
+    .header{
+        padding-right: 5%;
+    }
+    .logo_header {
+        width: 15%;
+    }
+    .header_h1{
+        font-size: 13px;
+    }
+    .tel_header1 {
+        font-size: 11px;
+    }
+    .tel_header2 {
+        font-size: 11px;
+    }
+    .loaction_p {
+        font-size: 10px;
+    }
+    .action_h1 {
+        font-size: 14px;
+        top: 65%;
+    }
+
+
+    .action_h1_mob {
+        font-size: 14px;
+        top: 65%;
+    }
+
+
+    .sets_wrapper.active {
+        margin-top: 20%;
+    }
+    .sets_banner.active {
+    margin-top: 7%;
+    }
+
+
+    .leftside_header{
+        padding-top: 4%;
+    }
+    .leftside_header_h1 {
+        font-size: 16px;
+    }
+
+
+    .set_h3{
+        font-size: 11px;
+    }
+    .roll_h3{
+        font-size: 11px;
+    }
+    .sushi_h3{
+        font-size: 11px;
+    }
+    .krevetki_h3{
+        font-size: 11px;
+    }
+    .maki_h3{
+        font-size: 11px;
+    }
+    .gunkans_h3{
+        font-size: 11px;
+    }
+}
+@media (max-width: 1050px){
+    .leftside_header{
+        display: none;
+    }
+    .header{
+        display: none;
+    }
+    .container{
+        width: 100%;
+    }
+
+
+    .mobile_header{
+        display: flex;
+        height: 11%;
+    }
+    .logo_header{
+        width: 14%;
+        height: 50%;
+    }
+    .header_h1 {
+        width: 80%;
+        font-size: 10px;
+    }
+    .tel_header1 {
+        font-size: 10px;
+    }
+    .tel_header2 {
+        font-size: 10px;
+    }
+    .action_h1{
+        top: 55%;
+    }
+
+    .action_h1_mob{
+        top: 55%;
+    }
+}
+@media (max-width: 425px){
+    .container{
+        width: 100%;
+        height: 1000px;
+    }
+    .mobile_header{
+        display: flex;
+        justify-content: space-evenly;
+        height: 11%;
+        padding-left: 10%;
+    }
+    .logo_header{
+        width: 10%;
+        height: 40%;
+    }
+    .header_h1 {
+        width: 128%;
+        font-size: 9px;
+    }
+    .tel_header1 {
+        font-size: 9px;
+    }
+    .tel_header2 {
+        font-size: 9px;
+    }
+    .action_wrapper.active {
+        width: 170%;
+    }
+    .action_wrapper {
+        width: 170%;
+    }
+    .action_p1.active {
+        font-size: 8px;
+        top: 125%;
+        width: 15%;
+    }
+    .action_p2.active {
+        font-size: 8px;
+        top: 225%;
+        width: 15%;
+    }
+    .action_h1{
+        top: 55%;
+        font-size: 9px;
+    }
+    .arrow_down_img {
+        margin-top: 5%;
+        width: 3.5%;
+        bottom: 10%;
+    }
+
+
+
+
+    .action_wrapper_mob.active {
+        width: 170%;
+    }
+    .action_wrapper_mob {
+        width: 170%;
+    }
+    .action_p1_mob.active {
+        font-size: 8px;
+        top: 125%;
+        width: 15%;
+    }
+    .action_p2_mob.active {
+        font-size: 8px;
+        top: 225%;
+        width: 15%;
+    }
+    .action_h1_mob{
+        top: 55%;
+        font-size: 9px;
+    }
+    .arrow_down_img_mob {
+        margin-top: 5%;
+        width: 3.5%;
+        bottom: 10%;
+    }
+    .sets_banner.active {
+        display: block;
+        position: absolute;
+        width: 85%;
+        height: 10%;
+        margin-top: 17%;
+    }
+
+
+
+
+
+    .sets_wrapper_left.active{
+        display: flex;
+    }
+
+    .sets_wrapper_left {
+        margin-top: 5%;
+        justify-content: space-evenly;
+        display: none;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .set_h3{
+        color: #ff0000;
+        font-size: 18px;
+    }
+    .sets_img{
+        width: 15%;
+    }
+
+
+    .roll_wrapper_left.active{
+        display: flex;
+    }
+    .roll_wrapper_left{
+        margin-top: 5%;
+        justify-content: space-evenly;
+        display: none;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+    }
+    .roll_h3{
+        color: #ff0000;
+        font-size: 18px;
+    }
+    .rolls_img{
+        width: 15%;
+    }
+
+
+    .sushi_wrapper.active{
+        display: flex;
+    }
+    .sushi_wrapper{
+        margin-top: 5%;
+        justify-content: space-evenly;
+        display: none;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+    }
+    .sushi_h3{
+        color: #ff0000;
+        font-size: 18px;
+    }
+    .sushi_img{
+        width: 15%;
+    }
+
+    .krevetki_wrapper.active{
+        display: flex;
+    }
+
+    .krevetki_wrapper{
+        margin-top: 5%;
+        padding-top: 0;
+        justify-content: space-evenly;
+        display: none;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+    }
+    .krevetki_h3{
+        color: #ff0000;
+        font-size: 18px;
+    }
+    .krevetki_img{
+        margin-top: 0%;
+        width: 15%;
+    }
+
+
+    .maki_wrapper.active{
+        display: flex;
+    }
+    .maki_wrapper{
+        margin-top: 5%;
+        justify-content: space-evenly;
+        display: none;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+    }
+    .maki_h3{
+        color: #ff0000;
+        font-size: 18px;
+    }
+    .maki_img{
+        width: 15%;
+    }
+
+    .gunkans_wrapper.active{
+        display: flex;
+    }
+    .gunkans_wrapper{
+        margin-top: 5%;
+        justify-content: space-evenly;
+        display: none;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+    }
+    .gunkans_h3{
+        color: #ff0000;
+        font-size: 18px;
+    }
+    .gunkans_img{
+        width: 15%;
+    }
+    .mobile_menu{
+        transition: 0.4s;
+        opacity: 0;
+    }
+    .mobile_menu.active{
+        transition: 0.4s;
+        opacity: 1;
+    }
+
+
+
+    .krevetki_banner {
+        display: block;
+        position: absolute;
+        width: 85%;
+        height: 10%;
+        margin-top: 17%;
+    }
+    .krevetki_banner_h1{
+        left: 15%;
+    }
+    .krevetki_wrapper_c_text{
+        box-sizing: border-box;
+        padding-right: 5%;
+    }
+    .krevetki_wrapper_c{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 45%;
+    }
+    .krevetki_img_c {
+        width: 65%;
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
