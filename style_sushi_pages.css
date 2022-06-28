@@ -1165,6 +1165,14 @@ p{
     .sushi_img_c {
     margin-left: 0;
     }
+
+    .tel_header1{
+        margin-top: 5%;
+        font-size: 15px;
+    }
+    .tel_header2{
+        font-size: 15px;
+    }
 }
 
 
