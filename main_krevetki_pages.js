@@ -169,7 +169,7 @@ gunkansWrapper.addEventListener('click', function(){
 
 /*MOBILE*/
 
-var burgerBtn = document.querySelector('.logo_header_mob')
+var burgerBtn = document.querySelector('.menu_header_h1_mob')
 
 burgerBtn.addEventListener('click', function(){
 
