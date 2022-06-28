@@ -1,43 +1,14 @@
 
-/*ANIMATIONS*/
-
-var logo = document.querySelector('.logo_header')
-var headerH1 = document.querySelector('.header_h1')
-var phonesHeader = document.querySelector('.phones_header')
-var locationWrapper = document.querySelector('.location_wrapper')
-var actionWrapper = document.querySelector('.action_wrapper')
-var leftsideHeaderH1 = document.querySelector('.leftside_header_h1')
-
-window.onload = setTimeout(function(){
-    logo.classList.add('animated')
-    headerH1.classList.add('animated')
-    phonesHeader.classList.add('animated')
-    locationWrapper.classList.add('animated')
-    actionWrapper.classList.add('animated')
-},270)
-
-
-
-window.onload = setTimeout(function(){
-    sushiWrapper.classList.add('animated')
-    makiWrapper.classList.add('animated')
-    krevetkiWrapper.classList.add('animated')
-    gunkansWrapper.classList.add('animated')
-    setsWrapper.classList.add('animated')
-    rollWrapper.classList.add('animated')
-    leftsideHeaderH1.classList.add('animated')
-}, 270)
-
 /*HEADER---*/
 
 var actionH1 = document.querySelector('.action_h1')
 var actionArrow = document.querySelector('.arrow_down_img')
 
+var actionWrapper = document.querySelector('.action_wrapper')
 
 
-
-actionArrow.addEventListener('click', function(){
-    var actionWrapper = document.querySelector('.action_wrapper')
+actionWrapper.addEventListener('click', function(){
+    console.log('click')
     var actionP1 = document.querySelector('.action_p1')
     var actionP2 = document.querySelector('.action_p2')
 
@@ -45,6 +16,26 @@ actionArrow.addEventListener('click', function(){
     actionP1.classList.toggle('active')
     actionP2.classList.toggle('active')
     actionWrapper.classList.toggle('active')
+
+
+})
+
+
+var actionH1Mob = document.querySelector('.action_h1_mob')
+var actionArrowMob = document.querySelector('.arrow_down_img_mob')
+
+var actionWrapperMob = document.querySelector('.action_wrapper_mob')
+
+
+actionWrapperMob.addEventListener('click', function(){
+    console.log('click')
+    var actionP1Mob = document.querySelector('.action_p1_mob')
+    var actionP2Mob = document.querySelector('.action_p2_mob')
+
+    actionArrowMob.classList.toggle('active')
+    actionP1Mob.classList.toggle('active')
+    actionP2Mob.classList.toggle('active')
+    actionWrapperMob.classList.toggle('active')
 
 
 })
@@ -143,7 +134,9 @@ gunkansWrapper.addEventListener('mouseout', function(){
 
 /*CONTEXT_MENUS---*/
 
-
+setsWrapper.addEventListener('click', function(){
+    console.log('skdmdskm')
+})
 
 
 setsWrapper.addEventListener('click', function(){
