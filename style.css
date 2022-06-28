@@ -80,7 +80,7 @@ p{
 
 }
 .menu_header_h1_mob{
-    font-size: 18px;
+    font-size: 15px;
     color: #ff0000;
     font-family: Japanease;
 }
@@ -959,8 +959,8 @@ p{
         height: 21%;
     }
     .logo_header {
-        width: 40%;
-        height: 80%;
+        width: 20%;
+        height: 65%;
     }
     .header_h1 {
         margin: 0;
