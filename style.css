@@ -1178,5 +1178,12 @@ p{
     .tel_header2{
         font-size: 12px;
     }
+    .location_wrapper{
+        position: absolute;
+        top: 45%;
+    }
+    .location_logo{
+        width: 6%;
+    }
 }
 
