@@ -1181,6 +1181,8 @@ p{
     .location_wrapper{
         position: absolute;
         top: 45%;
+        left: 22%;
+        right: 0%;
     }
     .location_logo{
         width: 6%;
