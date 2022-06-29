@@ -1184,6 +1184,16 @@ p{
         width: 65%;
         margin-top: 20px;
     }
+
+    .location_wrapper{
+        position: absolute;
+        top: 45%;
+        left: 100px;
+        right: 0%;
+    }
+    .location_logo{
+        width: 6%;
+    }
 }
 
 
