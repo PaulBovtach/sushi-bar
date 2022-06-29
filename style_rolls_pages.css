@@ -1180,6 +1180,16 @@ p{
     .tel_header2{
         font-size: 12px;
     }
+
+    .location_wrapper{
+        position: absolute;
+        top: 45%;
+        left: 100px;
+        right: 0%;
+    }
+    .location_logo{
+        width: 6%;
+    }
 }
 
 
